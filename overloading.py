@@ -1,6 +1,6 @@
 #Method Overloading with Classes(using super)
 
-class overloading_sum:
+class Overloading_sum:
 
     def area(self,a,b):
         print('area of box =',a*b)
