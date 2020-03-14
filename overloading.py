@@ -5,7 +5,7 @@ class Overloading_sum:
     def area(self,a,b):
         print('area of box =',a*b)
 
-class derived_sum(overloading_sum):
+class derived_sum(Overloading_sum):
     
     def area(self,a,b,c):
         super(derived_sum,self).area(10,20)
